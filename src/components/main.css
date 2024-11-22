@@ -1,0 +1,45 @@
+.main {
+    border: 1px solid #ddd; 
+    background-color: #ffffff;
+    padding: 1.5rem;
+    color: #333; 
+    width: 500px;
+    margin: 2rem auto; 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.main:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.main h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+
+@media (max-width: 600px) {
+    .main {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .main h1 {
+        font-size: 1.6rem;
+    }
+
+    .main form input[type='text'] {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .main form .btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}

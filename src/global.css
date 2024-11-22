@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Arial', sans-serif; 
+    background: rgb(22, 22, 112); 
+    background: linear-gradient(to right, rgb(22, 22, 112), rgb(85, 107, 47));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }

@@ -1,0 +1,59 @@
+
+.main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.main form input[type='text'] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.main form input[type='text']:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.main form .container {
+    display: flex;
+    margin-bottom: 2rem;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.main form .btn {
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.main form .btn:hover {
+    background-color: #45a049; 
+    transform: translateY(-2px);
+}
+
+.main form .btn svg {
+    font-size: 1rem;
+}

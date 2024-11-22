@@ -1,0 +1,30 @@
+ul.tarefas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ul.tarefas li:hover {
+    background-color: #f1f1f1;
+}
+
+.tarefas .btn__list{
+    display: flex;
+    row-gap: 2;
+    width: 20%;
+    color: #0a0a0a;
+    justify-content: space-around;
+    cursor: pointer;
+}
